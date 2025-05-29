@@ -34,7 +34,6 @@ public class OrderService {
         return orderRepository.findById(id).orElse(null);
     }
 
-    // for interservice communication:
 
     private final String USER_SERVICE_URL = "http://user-service:8081/users/";
     private final String BOOK_SERVICE_URL = "http://book-service:8082/books/";

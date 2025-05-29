@@ -61,7 +61,7 @@ public class OrderController {
         }
 
         Order order = orderOpt.get();
-
+        
         User user = restTemplate.getForObject(
             "http://user-service:8081/users/" + order.getUserId(), User.class);
 

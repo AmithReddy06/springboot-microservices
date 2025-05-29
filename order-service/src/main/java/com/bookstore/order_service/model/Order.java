@@ -30,7 +30,6 @@ public class Order {
         this.orderDate = LocalDateTime.now();
     }
 
-    // Getters and setters
 
     public Long getId() {
         return id;

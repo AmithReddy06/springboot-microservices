@@ -15,9 +15,8 @@ public class Book {
 
     private String title;
     private String author;
-    private Long userId; // optional link to user
+    private Long userId; 
 
-    // Getters and setters
     public Long getId() {
         return id;
     }

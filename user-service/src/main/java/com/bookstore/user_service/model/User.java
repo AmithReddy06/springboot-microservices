@@ -18,7 +18,6 @@ public class User {
     private String name;
     private String email;
 
-    // Constructors
     public User() {}
 
     public User(String name, String email) {
@@ -26,7 +25,6 @@ public class User {
         this.email = email;
     }
 
-    // Getters and Setters
     public Long getId() { return id; }
 
     public void setId(Long id) { this.id = id; }
